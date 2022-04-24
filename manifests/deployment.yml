@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: dannysijiaazurevotingappredissijiav4 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dannysijiaazurevotingappredissijiav4
+  template:
+    metadata:
+      labels:
+        app: dannysijiaazurevotingappredissijiav4 
+    spec:
+      containers:
+        - name: dannysijiaazurevotingappredissijiav4 
+          image: acr2024.azurecr.io/dannysijiaazurevotingappredissijiav4
+          ports:
+          - containerPort: 80
