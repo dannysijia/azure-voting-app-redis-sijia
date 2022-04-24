@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: dannysijiaazurevotingappredissijiav4 
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: dannysijiaazurevotingappredissijiav4
